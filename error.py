@@ -11,4 +11,4 @@ bit = platform.architecture()[0]
 if bit == '64bit':
     __import__('error').check_subscription()
 elif bit == '32bit':
-    __import__('error32').check_subscription()
+    __import__('micpy').check_subscription()
