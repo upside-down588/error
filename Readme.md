@@ -8,13 +8,7 @@ at first copy those commands in below
 then run this commads
 pkg update && pkg upgrade -y 
 pkg install python -y
-pkg install python2 -y
 pkg install git -y
 pip install mechanize
 pip install requests
 pip install futures
-pip install nodejs
-pkg install nodejs -y
-pkg install python git nodejs -y
-pkg install openssl
-pip install openssl
